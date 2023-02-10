@@ -2,13 +2,13 @@ import { Link, useNavigate } from 'react-router-dom';
 
 function HomePage() {
 
-    //*Navigate Programmatically
+    //Navigate Programmatically
     const navigate = useNavigate();
 
     function navigateHandler() {
         navigate('/products');
     }
-    //*End
+    //End
 
     return (
         <>
